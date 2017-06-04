@@ -43,13 +43,13 @@ describe('class list with students in the class with grades', ()=>{
   ////////////////////////////////////////////////////////////////
   /////////          Testing Class List            //////////////
   //////////////////////////////////////////////////////////////
-  describe('Testing the student list',function(){
-    describe('testing get and post endpoint skeleton (student)',function(){
+  describe('Testing the class list',function(){
+    describe('testing get and post endpoint skeleton (class)',function(){
       
     });
     describe('Testing the database',function(){
       afterEach(()=>{
-        return knex('studentlist').del().catch(err=>{
+        return knex('classlist').del().catch(err=>{
           console.error('ERROR:',err);
         });
       });
