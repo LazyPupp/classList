@@ -18,7 +18,9 @@ describe('class list with students in the class with grades', ()=>{
   //////////////////////////////////////////////////////////////
   describe('Testing the student list',function(){
     describe('testing get and post endpoint skeleton (student)',function(){
-      
+      it('it should get with 200 status and array', function(){
+        
+      });
     });
     describe('Testing the database',function(){
       afterEach(()=>{
